@@ -177,4 +177,40 @@
   color: #CCD0CF;
 }
 
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+  .project-card {
+      padding: 10px;
+      margin: 10px 0;
+  }
 
+  .project-card table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .project-card img {
+      padding-left: 0;
+      margin-bottom: 10px;
+      height: auto;
+      width: 100%;
+      max-width: 230px;
+  }
+
+  .project-card p {
+      font-size: larger;
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .project-card .para {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .project-card .btnn {
+      width: 100%;
+      margin: 5px 0;
+  }
+}
