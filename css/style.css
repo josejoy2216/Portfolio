@@ -214,3 +214,30 @@
       margin: 5px 0;
   }
 }
+
+
+@media only screen and (min-width: 992px) {
+  .cardd{
+    height: 105px;
+    width: 216px;
+    background-color: rgb(25, 25, 25); /* Card color set to RGB(25, 25, 25) */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cardd{
+    height: 105px;
+    width: 355px;
+    background-color: rgb(25, 25, 25); /* Card color set to RGB(25, 25, 25) */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+
+  }
+}
