@@ -231,7 +231,7 @@
 
 @media only screen and (max-width: 400px) {
   .cardd{
-   height: 85%;
+   height: 98%;
     width: 95%;
     background-color: rgb(25, 25, 25); /* Card color set to RGB(25, 25, 25) */
     border-radius: 10px;
