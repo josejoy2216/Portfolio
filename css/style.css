@@ -231,11 +231,26 @@
 
 @media only screen and (max-width: 400px) {
   .cardd{
-   height: 98%;
+   height: 92%;
     width: 95%;
     background-color: rgb(25, 25, 25); /* Card color set to RGB(25, 25, 25) */
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  .project-card img {
+    padding-left: 0;
+    margin-bottom: 10px;
+    height: auto;
+    width: 90%;
+    max-width: 120px;
+  }
+
+  .project-card p {
+    font-size: medium;
+    margin: 10px 0;
+    text-align: left;
+    width: 50%;
+    margin-left: 5px;
   }
 }

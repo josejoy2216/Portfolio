@@ -9,7 +9,7 @@ let proj1 = {
 };
 
 let proj2 = {
-    title: "Movie-Recommendation-System-with-Sentiment-Analysis",
+    title: "Movie-Recommendation-System",
     description: "Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.", 
     image: "../img/projmovie.jpg ",
     viewpage: "https://josejoy2216.github.io/Movie-Recommendation-System-with-Sentiment-Analysis/",
