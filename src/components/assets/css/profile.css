@@ -1,0 +1,229 @@
+/* Main container */
+.profile-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start */
+    height: auto; /* Adjust height for mobile view */
+    padding: 8% 5% 5%; /* Adjust padding for smaller screens */
+    background: linear-gradient(to right, #0c1124 0%, #130101 50%, #030128 100%);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Left Section */
+.profile-left {
+    flex: 1; /* Allow it to grow and fill space */
+    max-width: 100%;
+    padding: 28px; /* Add padding for mobile */
+}
+
+.profile-intro {
+    font-size: 3.15rem; /* Adjusted for smaller screens */
+    margin-bottom: 0;
+}
+
+.profile-name,
+.profile-title {
+    font-size: 3.15rem; /* Adjusted for smaller screens */
+}
+
+.highlight-name {
+    color: #4d45d7; 
+}
+
+.highlight-title {
+    background: linear-gradient(to right, #3fe481fe, #0564c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-links {
+    margin: 1rem 0; /* Adjusted for smaller screens */
+}
+
+.social-icon {
+    color: #ff69b4; /* Pink color for icons */
+    font-size: 1.2rem; /* Adjusted size for smaller screens */
+    margin-right: 10px; /* Reduced margin */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #fff; /* Hover color */
+}
+
+.profile-buttons {
+    margin-top: 1rem; /* Adjusted for smaller screens */
+}
+
+.contact-button,
+.resume-button {
+    padding: 8px 15px; /* Reduced padding for mobile */
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 8px; /* Reduced margin */
+    transition: background 0.3s ease;
+}
+
+.contact-button {
+    background: transparent;
+    border: 2px solid #ff69b4;
+    color: #ff69b4;
+}
+
+.contact-button:hover {
+    background: #ff69b4;
+    color: white;
+}
+
+.resume-button {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+}
+
+.resume-button:hover {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+
+/* Right Section: Code Snippet */
+.code-container {
+    background-color: #0b0e11;
+    border-radius: 12px;
+    border-color: #00d1b2;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%; /* Full width for mobile */
+    max-width: 680px; /* Max width for larger screens */
+    margin: 10px auto; /* Centered with margin */
+    margin-left: 10px;
+}
+
+.code-window {
+    background-color: #161b22bb;
+    border-radius: 8px;
+    padding: 15px; /* Reduced padding for mobile */
+    color: #c5c6c7;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em; /* Adjusted for mobile */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    background: rgba(22, 27, 34, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(22, 27, 34, 0.3);
+}
+
+.code-header {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    background-color: #ff5f57;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #28c840;
+}
+
+.code-content {
+    overflow-x: auto; /* Allow horizontal scroll if necessary */
+    font-size: 1.125rem;
+}
+
+/* Syntax Highlighting */
+.keyword {
+    color: #ff5757; /* Red for keywords */
+}
+
+.operator {
+    color: #ffbd2e; /* Yellow for operators */
+}
+
+.property {
+    color: #0dd3f3; /* Light blue for properties */
+}
+
+.string {
+    color: #f0da50; /* Yellow for strings */
+}
+
+.boolean {
+    color: #ff8c00; /* Orange for boolean */
+}
+
+.function {
+    color: #00d1b2; /* Teal for function keyword */
+}
+
+.number {
+    color: #d8a657; /* Yellow for numbers */
+}
+
+.bracket {
+    color: #c678dd; /* Purple for brackets */
+}
+
+.method {
+    color: #0dcaf0; /* Light blue for methods */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .profile-left {
+        max-width: 100%;
+        text-align: center; /* Center text */
+    }
+    .profile-intro {
+        font-size: 2rem; /* Adjusted for smaller screens */
+        margin-bottom: 0;
+    }
+    
+    .profile-name,
+    .profile-title {
+        font-size: 2.15rem; /* Adjusted for smaller screens */
+    }
+
+    .code-container {
+        width: 90%; /* Adjust width for mobile */
+        margin: 20px 0; /* Margin for mobile */
+    }
+
+    .code-window {
+        padding: 15px; /* Adjusted padding for mobile */
+        font-size: 0.9em; /* Smaller font size for mobile */
+    }
+
+    .social-icon {
+        font-size: 1.2rem; /* Adjusted size for mobile */
+        margin-right: 8px; /* Reduced margin for mobile */
+    }
+
+    .contact-button,
+    .resume-button {
+        padding: 8px 15px; /* Reduced padding for mobile */
+        margin-right: 5px; /* Reduced margin for mobile */
+    }
+}

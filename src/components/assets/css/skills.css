@@ -1,0 +1,117 @@
+.skills-container {
+    position: relative;
+    z-index: 50;
+    border-top: 1px solid #25213b;
+    background: linear-gradient(to right, #0c1124 0%, #130101 50%, #030128 100%);
+    /* background: linear-gradient(to right, #1a153c, #151c20, #052533); */
+    padding-bottom: 20px;
+  }
+
+  
+  .skills-divider-wrapper {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1px);
+  }
+  
+  .skills-divider {
+    width: 75%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #8a2be2, transparent);
+    margin-bottom: 3%;
+  }
+  
+  .skills-header-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 0 32px;
+  }
+  
+  .skills-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skills-line {
+    width: 96px;
+    height: 2px;
+    background-color: #1a1443;
+  }
+  
+  .skills-title {
+    background-color: #1a1443;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+  }
+  
+  .skills-marquee {
+    width: 100%;
+    margin: 3rem 0;
+  }
+  
+  .skill-card {
+    width: 144px;
+    min-width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    margin: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.15);
+  }
+  
+  .skill-card-content {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #1f223c;
+    background-color: #11152c;
+    box-shadow: none;
+    transition: all 0.5s;
+  }
+  
+  .skill-card:hover .skill-card-content {
+    border-color: #8a2be2;
+  }
+  
+  .skill-divider-wrapper {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1px);
+  }
+  
+  .skill-divider {
+    width: 75%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #8a2be2, transparent);
+  }
+  
+  .skill-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px;
+  }
+  
+  .skill-image {
+    height: 32px;
+  }
+  
+  .skill-name {
+    color: white;
+    font-size: 1rem;
+  }
+  

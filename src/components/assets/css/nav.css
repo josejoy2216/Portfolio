@@ -1,0 +1,51 @@
+/* Add a background color to the top navigation */
+.topnav {
+    padding: 0; /* Removed extra padding */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.26);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    margin: 0 5px; /* Reduced margin */
+    padding: 8px 12px; /* Reduced padding */
+    color: #ffffff;
+    text-align: center; /* Center text alignment */
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px; /* Slightly smaller font size */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    /* background-color: rgba(90, 90, 226, 0.2); Background color change */
+    color: rgba(255, 255, 255, 0.89); /* Color change */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgba(255, 255, 255, 0.2); /* Active background */
+    color: #9fc5bc; /* Active color */
+}
+
+.logo {
+    height: 40px; /* Reduced logo height */
+    width: 40px; /* Reduced logo width */
+    border-radius: 7px;
+}
+
+/* Flexbox for navbar items alignment */
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center; /* Vertically center items */
+}

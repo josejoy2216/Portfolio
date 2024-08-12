@@ -1,0 +1,158 @@
+.projects-container {
+    position: relative;
+    z-index: 50;
+    border-top: 1px solid #25213b;
+    background: linear-gradient(to right, #0c1124 0%, #130101 50%, #030128 100%);
+    padding-bottom: 20px;
+}
+
+.projects-divider-wrapper {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1px);
+}
+
+.projects-divider {
+    width: 75%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #8a2be2, transparent);
+    margin-bottom: 3%;
+}
+
+.projects-header-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 0 32px;
+}
+
+.projects-header {
+    display: flex;
+    align-items: center;
+}
+
+.projects-line {
+    width: 96px;
+    height: 2px;
+    background-color: #1a1443;
+}
+
+.projects-title {
+    background-color: #1a1443;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+/* Responsive grid container */
+.cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between cards */
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    width: 100%;
+    max-width: 20rem;
+    height: 380px; /* Fixed height for the card */
+    background-color: #11152C;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    position: relative; /* To position the button container */
+}
+
+.card:hover {
+    transform: translateY(-13px);
+    border-color: #8a2be2;
+    border: 3px;
+}
+
+.card-img-top {
+    width: 100%;           /* Ensures the image fits the width of the card */
+    height: 200px;         /* Sets a fixed height for the image */
+    object-fit: cover;     /* Ensures the image covers the specified dimensions */
+    object-position: center;
+}
+
+.card-body {
+    padding: 15px;
+    flex-grow: 1; /* Allow body to grow and take up available space */
+    display: flex;
+    flex-direction: column; /* Arrange body content vertically */
+}
+
+.card-title {
+    font-size: 1.15rem; /* Adjusted font size */
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.card-text {
+    font-size: 0.85rem; /* Adjusted font size */
+    color: #9b9898;
+    margin-bottom: 15px;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Padding for the buttons container */
+    margin-top: auto; /* Pushes the buttons to the bottom of the card */
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3a7cc2;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    margin: 5px 0;
+    width: 48%; /* Buttons take equal space */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #8a2be2;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 1024px) {
+    /* Desktop: 4 cards per row */
+    .card {
+        flex: 1 1 calc(25% - 20px); /* 25% width with spacing accounted for */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet: 3 cards per row */
+    .card {
+        flex: 1 1 calc(33.33% - 20px); /* 33.33% width with spacing accounted for */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Mobile: 1 card per row */
+    .card {
+        flex: 1 1 100%; /* Full width for mobile */
+    }
+}
