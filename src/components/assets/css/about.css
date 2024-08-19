@@ -29,8 +29,8 @@
 }
 
 .profilePhoto {
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 70px;
     object-fit: cover; /* Maintain aspect ratio */
     transition: transform 0.3s ease; /* Smooth hover effect */

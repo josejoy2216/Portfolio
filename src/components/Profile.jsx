@@ -1,13 +1,6 @@
 import React from "react";
 import "./assets/css/profile.css";
-import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaHackerrank } from "react-icons/fa";
-
-
-
-const getResume = () => {
-  alert('Button clicked!');
-  // You can also perform other actions here
-};
+import { FaGithub, FaLinkedin, FaInstagram, FaHackerrank } from "react-icons/fa";
 
 
 const Profile = () => {

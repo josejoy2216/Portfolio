@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
+import GlassmorphismGenerator from './components/services/GlassmorphismGenerator';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
@@ -15,6 +16,7 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
+    {/* <GlassmorphismGenerator/> */}
     <Footer/>
     </>
   );

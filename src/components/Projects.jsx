@@ -3,6 +3,8 @@ import './assets/css/project.css';
 import lms from './assets/img/projects/projlibrary.jpg';
 import pm from './assets/img/projects/projmovie.jpg';
 import ptodo from './assets/img/projects/projtodo.jpg';
+import booknook from './assets/img/projects/booknook.png';
+import uno from './assets/img/projects/uno1.png';
 import mafia from './assets/img/projects/mafia.jpg';
 
 
@@ -19,14 +21,21 @@ const projectsData = [
         img: pm,
         desc: "Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.",
         knowMore: "https://josejoy2216.github.io/Movie-Recommendation-System-with-Sentiment-Analysis/",
-        viewLive: "https://github.com/josejoy2216/Movie-Recommendation-System-with-Sentiment-Analysis/blob/main/README.md2"
+        viewLive: "https://github.com/josejoy2216/Movie-Recommendation-System-with-Sentiment-Analysis"
     },
     {
-        name: "Taskify",
-        img: ptodo,
-        desc: "Taskify is a simple and elegant ToDo List application built using HTML, CSS, and JavaScript. With Taskify, you can easily manage your tasks, mark them as done, edit them, and delete them as needed. It also provides a search functionality to quickly find specific tasks.",
-        knowMore: "https://github.com/josejoy2216/Taskify/blob/main/README.md",
-        viewLive: "https://josejoy2216.github.io/Taskify/"
+        name: "UNO - Game",
+        img: uno,
+        desc: "This repository contains the backend server for a multiplayer Uno card game built using Node.js, Express, and MongoDB.",
+        knowMore: "https://github.com/josejoy2216/UNO-GAME/blob/main/README.md",
+        viewLive: "https://github.com/josejoy2216/UNO-GAME"
+    },
+    {
+        name: "BookNook",
+        img: booknook,
+        desc: "BookNook is an e-commerce application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to browse, view details, and purchase books. Additionally, it includes an admin panel where administrators can manage the collection of books, including adding, updating, and deleting book entries. Firebase is used for authentication to secure both user and admin access.",
+        knowMore: "https://github.com/josejoy2216/Ecommerce/blob/main/README.md",
+        viewLive: "https://github.com/josejoy2216/Ecommerce"
     },
     {
         name: "Mafia - Game",
@@ -34,6 +43,13 @@ const projectsData = [
         desc: "This project is a multiplayer Mafia game where players can join from different devices using a unique game code. The game is designed to be played in real-time, with roles like Mafia, Police, and Civilians assigned to players. The game progresses through night and day phases, with players voting to identify the Mafia, and the game ends when a win condition is met.",
         knowMore: "https://github.com/josejoy2216/mafia/blob/main/README.md",
         viewLive: "https://github.com/josejoy2216/mafia/"
+    },
+    {
+        name: "Taskify",
+        img: ptodo,
+        desc: "Taskify is a simple and elegant ToDo List application built using HTML, CSS, and JavaScript. With Taskify, you can easily manage your tasks, mark them as done, edit them, and delete them as needed. It also provides a search functionality to quickly find specific tasks.",
+        knowMore: "https://github.com/josejoy2216/Taskify/blob/main/README.md",
+        viewLive: "https://josejoy2216.github.io/Taskify/"
     },
     // Add more projects as needed
 ];
