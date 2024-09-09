@@ -6,6 +6,8 @@ import ptodo from './assets/img/projects/projtodo.jpg';
 import booknook from './assets/img/projects/booknook.png';
 import uno from './assets/img/projects/uno1.png';
 import mafia from './assets/img/projects/mafia.jpg';
+import pcard from './assets/img/projects/vCardmobile.png';
+
 
 
 const projectsData = [
@@ -50,6 +52,13 @@ const projectsData = [
         desc: "Taskify is a simple and elegant ToDo List application built using HTML, CSS, and JavaScript. With Taskify, you can easily manage your tasks, mark them as done, edit them, and delete them as needed. It also provides a search functionality to quickly find specific tasks.",
         knowMore: "https://github.com/josejoy2216/Taskify/blob/main/README.md",
         viewLive: "https://josejoy2216.github.io/Taskify/"
+    },
+    {
+        name: "Porfolio - vCard",
+        img: pcard,
+        desc: "vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.",
+        knowMore: "https://github.com/josejoy2216/vCard-Personal-Portfolio/blob/main/README.md",
+        viewLive: "https://josejoy2216.github.io/vCard-Personal-Portfolio/"
     },
     // Add more projects as needed
 ];
